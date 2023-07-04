@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2Seminar</title>
+    <!-- <style>
+        h1 {
+            color: blueviolet;
+        }
+    </style> -->
+    <link rel="stylesheet" href="./assets/style.css">
+    <!-- <script>
+        // alert("Hello");
+        let el = document.getElementById("el1");
+        console.log(el);
+    </script> -->
+
+    <script>
+        function showName() {
+            var name = prompt("Введите свое имя:");
+            document.getElementById("output").innerHTML = "Привет, " + name + "!";
+        }
+    </script>
+
+</head>
+
+<body>
+    <button onclick="showName()">Ввести имя</button>
+    <div id="output"></div>
+    <section>
+        <div class="box">
+            <h1 style="font-size: 50px;">Все привет!</h1>
+            <p class="text" id="el1">Это мой первый сайт</p>
+        </div>
+        <div class="box">
+            <p class="text">Сегодня я расскажу про свою жизнь</p>
+        </div>
+        <img src="https://cdnn21.img.ria.ru/images/148839/96/1488399659_0:0:960:960_600x0_80_0_1_e38b72053fffa5d3d7e82d2fe116f0b3.jpg"
+            width="200" height="200" alt="Котики">
+        <button class="btn" id="btn1">Open</button>
+    </section>
+
+   
+      
+    <!-- <script>
+        // let el2 = document.getElementById("el1");
+        // console.log(el2);
+        // el2.classList.add("ice");
+        // el2.classList.remove("ice");     
+    </script> -->
+    <script src="./assets/script.js"></script>
+</body>
+
+</html>
